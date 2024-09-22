@@ -13,7 +13,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone the Git repository
-                git branch: 'main', url: 'https://github.com/shamanthsham459/HelloWorld_React_Docker.git'
+                git branch: 'main', url: 'https://github.com/shamanthsham459/HelloWorld_React_Docker_K8s.git'
             }
         }
 
